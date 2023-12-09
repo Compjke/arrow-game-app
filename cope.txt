@@ -1,0 +1,5 @@
+src/components/Playground/store/__test__/initiState.spec.ts
+
+src/components/Playground/store/__test__/setCurrentStep.spec.ts
+
+src/components/Playground/store/__test__/setRandomSteps.spec.ts

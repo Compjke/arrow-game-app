@@ -1,0 +1,24 @@
+.btn-play {
+  background-color: rgba(46, 217, 52, 0.753);
+  transition: all 0.3s ease;
+}
+.btn-play:hover {
+  background-color: rgba(22, 167, 27, 0.753);
+}
+
+.btn-pause {
+  transition: all 0.3s ease;
+  background-color: rgba(114, 118, 244, 0.759);
+}
+
+.btn-pause:hover {
+  background-color: rgba(97, 100, 200, 0.759);
+}
+
+.btn-new-game {
+  transition: all 0.3s ease;
+  background-color: cornflowerblue;
+}
+.btn-new-game:hover {
+  background-color: rgb(83, 121, 193);
+}

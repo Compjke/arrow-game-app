@@ -1,0 +1,15 @@
+.controlBrn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.controlBrn {
+  min-width: 50px;
+  padding: 3px 16px;
+  line-height: 1.2;
+  border-radius: 18px;
+}
+
+.controlBrn:disabled {
+  background-color: var(--color-gray-medium);
+  color: var(--color-gray-light);
+}

@@ -1,0 +1,13 @@
+.chipSuccess {
+  border-color: var(--color-green-dark);
+  color: var(--color-green-dark);
+}
+
+.chipUnSuccess {
+  border-color: var(--color-red-dark);
+  color: var(--color-red-dark);
+}
+/* .chipUnSuccess span,
+.chipSuccess span {
+  font-weight: bold;
+} */

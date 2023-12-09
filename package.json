@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-redux",
+  "name": "arrow-game",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,9 +15,15 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.19",
     "@reduxjs/toolkit": "^1.8.1",
+    "clsx": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.4.5",
     "react-redux": "^8.0.1"
   },
   "devDependencies": {
@@ -55,8 +61,8 @@
     }
   },
   "prettier": "prettier-config-nick",
-  "lint-staged" : {
-    "**/*.{js,ts,tsx,jsx}" : [
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
       "npx prettier --write",
       "npx eslint --fix"
     ]

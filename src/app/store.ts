@@ -1,8 +1,8 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit"
-
+import playGroundReducer from "../components/Playground/store/playGround.slice"
 export const store = configureStore({
   reducer: {
-    counter: () => {},
+    playground: playGroundReducer,
   },
 })
 
